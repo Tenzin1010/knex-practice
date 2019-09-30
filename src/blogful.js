@@ -8,3 +8,4 @@ const knexInstance = knex({
 })
 
 console.log(ArticlesService.getAllArticles())
+module.exports = knexInstance

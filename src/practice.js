@@ -7,9 +7,6 @@ const knexInstance = knex({
     connection: process.env.DB_URL
 })
 
-//      SELECT product_id, name, price, category
-//      FROM amazong_products
-//      WHERE name = 'Point of view gun';
 
 //same as above
 const qry = knexInstance
